@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##################################
+#Author: Aiyan
+#Date: 24/12/2025
+#
+# This Script outputs the Node health
+#
+#Version: V1
+
+set -x # debug mode
+
+df -h
+
+free -g
+
+nproc
